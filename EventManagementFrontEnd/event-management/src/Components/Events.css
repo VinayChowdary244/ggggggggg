@@ -1,0 +1,37 @@
+/* Books.css */
+
+.books-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .book-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-tile {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust as needed */
+  }
+  
+  .book-tile h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .book-tile p {
+    margin: 5px 0;
+  }
+  
